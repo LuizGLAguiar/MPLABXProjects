@@ -1,0 +1,75 @@
+__S0 800 0 ABS 0
+__S1 72 0 ABS 0
+__S3 0 0 ABS 0
+nibbleB 70 0 COMMON 1
+nibbleC 71 0 COMMON 1
+__HresetVec 0 0 ABS 0
+__LresetVec 0 0 ABS 0
+__Hcode 0 0 ABS 0
+__Lcode 0 0 ABS 0
+__Hdata 0 0 ABS 0
+__Ldata 0 0 ABS 0
+__Hudata_bank0 0 0 ABS 0
+__Ludata_bank0 0 0 ABS 0
+__Hudata_shr 0 0 ABS 0
+__Ludata_shr 0 0 ABS 0
+__H__absolute__ 0 0 ABS 0
+__L__absolute__ 0 0 ABS 0
+__Hedata 0 0 ABS 0
+__Ledata 0 0 ABS 0
+__Hudata 0 0 ABS 0
+__Ludata 0 0 ABS 0
+__Hudata_bank1 0 0 ABS 0
+__Ludata_bank1 0 0 ABS 0
+__Hspace_0 800 0 ABS 0
+__Lspace_0 0 0 ABS 0
+__Hspace_1 72 0 ABS 0
+__Lspace_1 0 0 ABS 0
+__Hspace_3 0 0 ABS 0
+__Lspace_3 0 0 ABS 0
+__Hudata_bank2 0 0 ABS 0
+__Ludata_bank2 0 0 ABS 0
+__Hudata_bank3 0 0 ABS 0
+__Ludata_bank3 0 0 ABS 0
+%segments
+udata_shr 70 71 COMMON 70 1
+code FB4 FFF CODE FB4 0
+resetVec FAE FB3 CODE FAE 0
+%locals
+build/default/debug/main.o
+main.s
+20 7DA 0 CODE 0
+21 7DC 0 CODE 0
+22 7DD 0 CODE 0
+23 7DE 0 CODE 0
+24 7DF 0 CODE 0
+25 7E1 0 CODE 0
+26 7E2 0 CODE 0
+27 7E3 0 CODE 0
+28 7E5 0 CODE 0
+29 7E6 0 CODE 0
+30 7E7 0 CODE 0
+31 7E8 0 CODE 0
+32 7E9 0 CODE 0
+33 7EA 0 CODE 0
+34 7EC 0 CODE 0
+35 7ED 0 CODE 0
+38 7EF 0 CODE 0
+39 7F0 0 CODE 0
+40 7F1 0 CODE 0
+41 7F2 0 CODE 0
+43 7F3 0 CODE 0
+44 7F4 0 CODE 0
+45 7F5 0 CODE 0
+47 7F6 0 CODE 0
+48 7F7 0 CODE 0
+51 7F8 0 CODE 0
+52 7F9 0 CODE 0
+53 7FA 0 CODE 0
+54 7FB 0 CODE 0
+57 7FC 0 CODE 0
+58 7FD 0 CODE 0
+59 7FE 0 CODE 0
+60 7FF 0 CODE 0
+15 7D7 0 CODE 0
+16 7D9 0 CODE 0
